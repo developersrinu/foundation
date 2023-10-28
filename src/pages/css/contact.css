@@ -1,0 +1,72 @@
+#contactlogo{
+    width: 100%;
+    height: 87vh;
+}
+.contactus{
+  
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--yellow);
+ 
+}
+.contactusDiv{
+    position: relative;
+    top: -250px;
+  
+}
+.HomeAndContact{
+    font-size: 2rem;
+    color:black;
+}
+.HomeAndContact:hover{
+    color:var(--yellow);
+ 
+}
+.touchDiv{
+    width: 100%;
+    height: auto;
+  margin-top: -100px;
+  padding-right: 15px !important;
+
+
+}
+.touchH{
+    color: var(--yellow);
+    font-size: 2rem;
+}  
+.query{
+
+    font-size: 2.5rem;
+    color: #4A4C70;
+    margin-bottom: 2%;
+
+}
+.imgDiv{
+    text-align: center;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+   
+}
+.imgDiv>img{
+    width: 95%;
+    /* margin: 0 auto; */
+
+    
+}
+.sendMessage{
+    border: 2px solid #2AD9F8;
+    position: relative;
+    top : -80px;
+    padding : 10px;
+    background-color: wheat;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+   
+
+}
+.sendMessage:hover{
+    background-color: #2AD9F8;
+    color: white;
+}

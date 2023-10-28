@@ -1,0 +1,32 @@
+.EventCard{
+    width:541px ;
+    height: auto;
+    background-color:#F3F6FF;
+    margin: 15px;
+}
+.EventCard>image{
+    width: 100%;
+    height: auto;
+}
+.details{
+    display:flex;
+    flex-direction: column;
+    /* border-left:2px solid var(--yellow) ; */
+    height: auto;
+    /* border-left:2px solid var(--yellow) ; */
+
+    margin: 2px;
+}
+.details>.head{
+    font-size: 2rem;
+    color:#4A4C70;
+    padding-left: 1.4%;
+
+}
+.details>.desc{
+    font-size: 1rem !important;
+    padding-left: 1.4% !important;
+    font-weight: 200;
+    color: black;
+
+}

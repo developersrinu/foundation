@@ -1,0 +1,61 @@
+/* <div className='hero'>
+<div>77 independence Day Celebration</div>
+<div><button>1</button><button>2</button></div>
+</div> */
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position:absolute;
+    top:250px;
+    left: 180px;
+    color: var(--yellow);
+    text-align: center;
+  
+
+}
+
+.hero>.pp{
+    font-size: 4rem;
+}
+
+.btn{
+    color:var(--yellow);
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid var(--yellow);
+    margin: 5px;
+    font-weight: 600;
+
+}
+.pp{
+    color: white;
+}
+
+.btn:hover{
+     background-color: var(--yellow);
+     color: aliceblue;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+    .hero>.pp{
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    .hero{
+     
+        position:absolute;
+        top:180px;
+        left: 160px;
+        
+      
+    
+    }
+    
+}

@@ -1,0 +1,63 @@
+#contactlogo{
+    width: 100%;
+    height: 87vh;
+}
+.contactus{
+  
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--yellow);
+ 
+}
+.contactusDiv{
+    position: relative;
+    top: -230px;
+  
+}
+.HomeAndContact{
+    font-size: 2rem;
+    color:black;
+}
+.HomeAndContact:hover{
+    color:var(--yellow);
+ 
+}
+
+
+
+.Account{
+    margin-top: -70px;
+}
+
+.ACCOUNT-DETAILS{
+    font-size: 3rem;
+    color: var(--blue);
+}
+
+.mainDiv{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    background-color:#F5F5F5;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.details>div{
+    font-size: 1.5rem;
+    padding: 5px 0;
+    color: var(--blue);
+
+}
+@media screen and (max-width:768px){
+    #contactlogo{
+        margin-top: -1rem !important;
+    }
+
+}

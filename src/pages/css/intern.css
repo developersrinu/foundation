@@ -1,0 +1,205 @@
+.main{
+    width: 98%;
+    height: auto;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    display: flex;
+    margin-top: 130px;
+  
+}
+
+.text{
+    width: 50%;
+    height: auto;
+    /* background-color: blue; */
+    padding-left: 3px;
+   
+
+}
+.head1{
+    font-size: 2rem;
+    margin: 2%;
+    margin-left: 18px;
+
+}
+.head2{
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 10px 0;
+    margin-left: 18px;
+}
+.head3{
+    font-size: 1.3rem;
+    margin: 10px 0;
+    margin-left: 18px;
+}
+.button{
+ width:fit-content;
+ border: 2px solid black;
+ padding:10px;
+ margin-left: 18px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 18px;
+    margin-top: 30px;
+
+
+}
+.desc{
+    font-weight: 800;
+}
+.imgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+}
+.profile>img{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius:50%;
+    
+}
+
+.internCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+   
+    align-items: center;
+
+}
+
+.imglogo{
+    width: 400px;
+
+
+    
+}
+.imglogo>img{
+    width: 100%;
+    height:auto ;
+ 
+
+}
+.heading{
+    font-size: 2rem;
+    margin: 10px;
+}
+.desc1{
+    margin: 10px;
+}
+.infoDiv{
+    width:600px;
+}
+
+
+/* ------------ */
+.descdiv{
+    width: 100%;
+    padding: 100px;
+    background-color:#515B60;
+    text-align: center;
+     margin-top: 100px; 
+
+    
+}
+.head3{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 800;
+
+}
+.myimage{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 20px;
+    border: 2px solid white;
+}
+
+.imgName{
+    color: white;
+    font-size: 1.3rem;
+}
+
+/* ----------------------------------- */
+
+.mainCard{
+  
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 7%;
+  
+
+}
+.pics>img{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 20px;
+}
+.join{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 20px;
+    margin-top: -10px;
+    
+}
+.appBtn{
+    background-color: black;
+    color: white;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20PX;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+
+    .head2{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .button{
+      margin-top: -10px;
+    }
+    
+}

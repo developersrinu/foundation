@@ -1,0 +1,123 @@
+navbar{
+    width: 100wh;
+    height: 18vh;
+    background-color: #20212B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px ;
+    position: fixed;
+    top:0px;
+    right:0px;
+    left :0px;
+    z-index: 100;
+    /* opacity: 0.2; */
+
+}
+.rightDiv{
+    display: flex;
+}
+.rightDiv>.navitem{
+    margin: 20px;
+}
+
+.item1{
+    background-color: var(--yellow);
+    color: black;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left :620px
+}
+.item2{
+    background-color: var(--yellow);
+    color: black;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left :800px
+}
+.item3,.item4,.item5{
+    font-size: 20px;
+}
+
+/* Hamburger.css */
+
+
+
+.menu>div{
+  color: white;
+  font-size: 1.2rem;
+}
+.hamburger-menu {
+    position: relative;
+    display: none;
+
+  }
+
+  
+  .hamburger-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+  }
+  
+  .line {
+    /* background-color: #333; */
+    background-color:var(--yellow);
+    height: 3px;
+    width: 100%;
+    transition: all 0.2s ease;
+  }
+  
+  .line.open:nth-child(1) {
+    transform: rotate(-45deg) translate(-3px, 4px);
+  }
+  
+  .line.open:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .line.open:nth-child(3) {
+    transform: rotate(45deg) translate(-3px, -4px);
+  }
+  
+  .menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color:var(--yellow);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    z-index: 10;
+    height: auto;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  /* You can customize these styles to fit your design */
+  
+
+@media screen and (max-width: 768px) {
+    .rightDiv{
+        display:none;
+        
+    }
+    .hamburger-menu {
+        position: relative;
+        display: block;
+    
+    }
+}

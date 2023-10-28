@@ -1,0 +1,51 @@
+.H-card{
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    margin-top: 5%;
+
+    
+}
+.leftImage{
+    width: 50%;
+
+}
+
+.rightDiv1{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.rightDiv1>.heading{
+    font-size: 3rem;
+    
+
+}
+.rightDiv1>.subHeading{
+    font-size: 2rem;
+}
+.apply:hover{
+   border: 2px solid var(--yellow);
+
+}
+
+    /* home end */
+@media screen and (max-width: 768px){
+    
+   .H-card{
+    flex-direction: column;
+   }
+   .leftImage{
+    width: 100%;
+   }
+   .rightDiv1{
+    margin: 0px auto;
+   }
+
+
+
+}
+
