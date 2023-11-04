@@ -20,7 +20,7 @@ function MyCarousel() {
       </Carousel.Item>
     </Carousel>
 
-    <div className='hero'>
+    <div className='hero hero2'>
       <div className='pp'>Get Your Donation Tax Exempted</div>
       <div><Link  className='btn' to="helpPage">Donate Now</Link> <Link className='btn' to='/videoPage'>Watch video</Link> </div>
     </div>

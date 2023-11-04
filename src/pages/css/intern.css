@@ -195,15 +195,19 @@
         font-size: 2rem;
         font-weight: 700;
     }
+
     .main{
         flex-direction: column;
     }
+
     .button{
       margin-top: -10px;
     }
+
     .imgDiv{
         margin-top: 40px !important;
     }
+
     .infoDiv2{
 
         margin-top: -80px;
