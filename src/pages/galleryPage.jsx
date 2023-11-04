@@ -17,8 +17,10 @@ import p10 from '../assests/Gallery/Workshops.jpg'
 
 
 const GalleryPage = () => {
+  
+
     return (
-        <div style={{ height: "", marginTop: "5.5rem", textAlign: "center" }}>
+        <div   style={{ height: "", marginTop: "5.5rem", textAlign: "center" }}>
 
             <img src={p1} alt='img' id='Gallerylogo' />
             <div className='GalleryDiv'>
@@ -35,6 +37,7 @@ const GalleryPage = () => {
 
 
             <div className='items'>
+
                 <div className='item' >
                     <img src={p2} alt="img" />
                     <div className='displayName'>Animal Feeding</div>
@@ -63,10 +66,12 @@ const GalleryPage = () => {
                     <img src={p8} alt="img" />
                     <div className='displayName'>Empowering Women</div>
                 </div>
+
                 <div className='item' >
                     <img src={p9} alt="img" />
                     <div className='displayName'>Tree Plantation</div>
                 </div>
+
                 <div className='item' >
                     <img src={p10} alt="img" />
                     <div className='displayName'>Free workShop</div>

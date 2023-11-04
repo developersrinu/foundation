@@ -47,16 +47,18 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+  
    
 }
 .imgDiv>img{
-    width: 95%;
+    width: 80%;
+    height: 50%;
     /* margin: 0 auto; */
 
     
 }
 .sendMessage{
-    border: 2px solid #2AD9F8;
+    border: 2px solid #3E6DA8;
     position: relative;
     top : -80px;
     padding : 10px;
@@ -67,6 +69,6 @@
 
 }
 .sendMessage:hover{
-    background-color: #2AD9F8;
+    background-color: #3E6DA8;
     color: white;
 }

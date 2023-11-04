@@ -2,8 +2,8 @@ import React from 'react'
 import './css/contact.css'
 import Footer from '../Components/Footer'
 
-import p1 from '../assests/Contact/children-of-uganda-1994833_1280.jpg'
-import p2 from '../assests/Contact/contact.jpg'
+import p1 from '../assests/Contact/Food-Donation.jpg'
+import p2 from '../assests/Contact/Free-Workshop.jpg'
 const ContactPage = () => {
   return (
   

@@ -166,9 +166,9 @@ const HomePage = () => {
                     <div className='teamCard'>
                         <img src={Teaming1} alt="img" />
                         <div className='media1'>
-                            <a href='https://www.facebook.com/suvidhamahilamandal/'> <FaFacebook style={{ color: "white", margin: '5px' }} /></a>
-                            <a href='https://www.instagram.com/suvidha_mahila_mandal/?igshid=YmMyMTA2M2Y%3D'><FaInstagram style={{ color: "white", margin: '5px' }} /></a>
-                            <a href='https://www.linkedin.com/company/suvidha-foundation/'><FaLinkedin style={{ color: "white", margin: '5px' }} /></a>
+                            <a href='https://www.facebook.com/suvidhamahilamandal/'> <FaFacebook style={{ color: "black", margin: '5px' }} /></a>
+                            <a href='https://www.instagram.com/suvidha_mahila_mandal/?igshid=YmMyMTA2M2Y%3D'><FaInstagram style={{ color: "black", margin: '5px' }} /></a>
+                            <a href='https://www.linkedin.com/company/suvidha-foundation/'><FaLinkedin style={{ color: "black", margin: '5px' }} /></a>
                         </div>
                         <div className='name'>Shobha Motghare</div>
                         <div className='nameInfo'>Secretary</div>
@@ -178,9 +178,9 @@ const HomePage = () => {
                         <img src={Teaming2} alt="img" />
 
                         <div className='media1'>
-                            <a href='https://www.facebook.com/suvidhamahilamandal/'> <FaFacebook style={{ color: "white", margin: '5px' }} /></a>
-                            <a href='https://www.instagram.com/suvidha_mahila_mandal/?igshid=YmMyMTA2M2Y%3D'><FaInstagram style={{ color: "white", margin: '5px' }} /></a>
-                            <a href='https://www.linkedin.com/company/suvidha-foundation/'><FaLinkedin style={{ color: "white", margin: '5px' }} /></a>
+                            <a href='https://www.facebook.com/suvidhamahilamandal/'> <FaFacebook style={{ color: "black", margin: '5px' }} /></a>
+                            <a href='https://www.instagram.com/suvidha_mahila_mandal/?igshid=YmMyMTA2M2Y%3D'><FaInstagram style={{ color: "black", margin: '5px' }} /></a>
+                            <a href='https://www.linkedin.com/company/suvidha-foundation/'><FaLinkedin style={{ color: "black", margin: '5px' }} /></a>
                         </div>
                         <div className='name'>Shobha Motghare</div>
                         <div className='nameInfo'>Secretary</div>
@@ -189,9 +189,9 @@ const HomePage = () => {
                     <div className='teamCard'>
                         <img src={Teaming3} alt="img" />
                         <div className='media1'>
-                            <a href='https://www.facebook.com/suvidhamahilamandal/'> <FaFacebook style={{ color: "white", margin: '5px' }} /></a>
-                            <a href='https://www.instagram.com/suvidha_mahila_mandal/?igshid=YmMyMTA2M2Y%3D'><FaInstagram style={{ color: "white", margin: '5px' }} /></a>
-                            <a href='https://www.linkedin.com/company/suvidha-foundation/'><FaLinkedin style={{ color: "white", margin: '5px' }} /></a>
+                            <a href='https://www.facebook.com/suvidhamahilamandal/'> <FaFacebook style={{ color: "black", margin: '5px' }} /></a>
+                            <a href='https://www.instagram.com/suvidha_mahila_mandal/?igshid=YmMyMTA2M2Y%3D'><FaInstagram style={{ color: "black", margin: '5px' }} /></a>
+                            <a href='https://www.linkedin.com/company/suvidha-foundation/'><FaLinkedin style={{ color: "black", margin: '5px' }} /></a>
                         </div>
                         <div className='name'>Shobha Motghare</div>
                         <div className='nameInfo'>Secretary</div>
@@ -200,9 +200,9 @@ const HomePage = () => {
                     <div className='teamCard'>
                         <img src={Teaming4} alt="img" />
                         <div className='media1'>
-                            <a href='https://www.facebook.com/suvidhamahilamandal/'> <FaFacebook style={{ color: "white", margin: '5px' }} /></a>
-                            <a href='https://www.instagram.com/suvidha_mahila_mandal/?igshid=YmMyMTA2M2Y%3D'><FaInstagram style={{ color: "white", margin: '5px' }} /></a>
-                            <a href='https://www.linkedin.com/company/suvidha-foundation/'><FaLinkedin style={{ color: "white", margin: '5px' }} /></a>
+                            <a href='https://www.facebook.com/suvidhamahilamandal/'> <FaFacebook style={{ color: "black", margin: '5px' }} /></a>
+                            <a href='https://www.instagram.com/suvidha_mahila_mandal/?igshid=YmMyMTA2M2Y%3D'><FaInstagram style={{ color: "black", margin: '5px' }} /></a>
+                            <a href='https://www.linkedin.com/company/suvidha-foundation/'><FaLinkedin style={{ color: "black", margin: '5px' }} /></a>
                         </div>
                         <div className='name'>Shobha Motghare</div>
                         <div className='nameInfo'>Secretary</div>

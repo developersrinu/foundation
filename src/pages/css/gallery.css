@@ -41,16 +41,16 @@
 .items{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
     width: 100%;
     margin-bottom: 60px;
 
 }
 .item{
-    width: 30%;
+    width: 350px;
     height: auto;
     margin: 1%;
-    background-color:#F3F6FF;
+    background-color:#F3F6FF !important;
 }
 .item>img{
     width: 100%;
@@ -61,6 +61,24 @@
     color: var(--blue);
 
 }
+
+.item {
+    transition: transform 4s !important;
+    animation: ani 4s !important;
+    transform-origin: bottom center;
+    animation-delay: 1s !important;
+  }
+  
+  @keyframes ani {
+    from {
+      transform: scale(0.3); /* 30% */
+    }
+    to {
+      transform: scale(1); /* 100% */
+    }
+  }
+  
+
 @media screen and (max-width:768px){
     #Gallerylogo{
         margin-top: -1rem !important;
