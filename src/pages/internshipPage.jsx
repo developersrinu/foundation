@@ -44,7 +44,7 @@ const InternshipPage = () => {
           </div>
         </div>
 
-        <div className='imgDiv'>
+        <div className='imgDiv' >
           <img src={p1} alt="img" />
 
         </div>
@@ -67,7 +67,7 @@ const InternshipPage = () => {
 
       <div className='internCard'>
 
-        <div className='infoDiv'>
+        <div className='infoDiv infoDiv2'>
           <div className='heading'>Student Internship and Mentorship Programs.</div>
           <div className='desc1'>At Suvidha Foundation, we offer a range of free internship opportunities, both technical and non-technical, as well as social work programs. Our internship programs aim to provide valuable hands-on experience to students and individuals, allowing them to contribute to our organization's initiatives and projects.</div>
         </div>

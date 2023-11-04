@@ -201,5 +201,14 @@
     .button{
       margin-top: -10px;
     }
+    .imgDiv{
+        margin-top: 40px !important;
+    }
+    .infoDiv2{
+
+        margin-top: -80px;
+
+    }
+    
     
 }
