@@ -6,10 +6,10 @@ import Footer from '../Components/Footer'
 
 const HelpPage = () => {
   return (
-    <div   style={{ height: "", marginTop: "5.5rem", textAlign:'center' }}>
+    <div   style={{ height: "", marginTop: "5.5rem", textAlign:'' }}>
 
       <img src={qq} alt='img' id='contactlogo' />
-      <div className='contactusDiv'>
+      <div className='contactusDiv' style={{textAlign:"center"}}>
         <div className='contactus' style={{textDecoration: "underline"}}>Contact Us</div>
         <div className='HomeAndContact'>Home / Contact</div>
       </div>

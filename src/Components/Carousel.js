@@ -10,19 +10,19 @@ function MyCarousel() {
     <div>
         <Carousel>
       <Carousel.Item interval={1000}>
-        <img src={img1} alt="First slide" style={{ height: '86vh', width: "100%" }} />
+        <img src={img1} alt="First slide" style={{ height: '86vh', width: "100%"}} />
       </Carousel.Item>
       <Carousel.Item interval={500}>
-        <img src={img2} alt="Second slide" style={{ height: '86vh', width: "100%" }} />
+        <img src={img2} alt="Second slide" style={{ height: '86vh', width: "100%"}} />
       </Carousel.Item>
       <Carousel.Item>
-        <img src={img3} alt="Third slide" style={{ height: '86vh', width: "100%" }} />
+        <img src={img3} alt="Third slide" style={{ height: '86vh', width: "100%"}} />
       </Carousel.Item>
     </Carousel>
 
-    <div className='hero hero2'>
-      <div className='pp'>Get Your Donation Tax Exempted</div>
-      <div><Link  className='btn' to="helpPage">Donate Now</Link> <Link className='btn' to='/videoPage'>Watch video</Link> </div>
+    <div className='hero hero2' style={{filter:"brightness(118%)"}}>
+      <div className='pp' style={{color:'var(--yellow)'}}>Get Your Donation Tax Exempted</div>
+      <div><Link  className='btn' to="helpPage"  style={{fontWeight:'900'}}>Donate Now</Link> <Link className='btn' to='/videoPage'  style={{fontWeight:'900'}}>Watch video</Link> </div>
     </div>
 
     </div>

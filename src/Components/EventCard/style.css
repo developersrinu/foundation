@@ -32,4 +32,8 @@
     color: black;
 
 } 
+/* @media screen and (max-width: 768px) {
+    .EventCard>image{
+     text-align: center !important;
+    } */
 

@@ -20,10 +20,10 @@ const GalleryPage = () => {
   
 
     return (
-        <div   style={{ height: "", marginTop: "5.5rem", textAlign: "center" }}>
+        <div   style={{ height: "", marginTop: "5.5rem", textAlign: "" }}>
 
             <img src={p1} alt='img' id='Gallerylogo' />
-            <div className='GalleryDiv'>
+            <div className='GalleryDiv' style={{textAlign:"center"}}>
                 <div className='Galleryus' style={{textDecoration: "underline"}}>Gallery</div>
                 <div className='HomeAndGallery'>Home / Gallery</div>
             </div>

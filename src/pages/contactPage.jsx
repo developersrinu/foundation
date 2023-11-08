@@ -7,15 +7,15 @@ import p2 from '../assests/Contact/Free-Workshop.jpg'
 const ContactPage = () => {
   return (
   
-    <div style={{ height: "", marginTop: "5rem", textAlign:"center" }}>
+    <div style={{ height: "", marginTop: "5rem", textAlign:"" }}>
       
       <img src={p1} alt='img' id ='contactlogo'/>
-      <div className='contactusDiv'>
+      <div className='contactusDiv' style={{textAlign:"center"}} >
         <div className='contactus' style={{textDecoration: "underline"}}>Contact Us</div>
         <div className='HomeAndContact'>Home / Contact</div>
       </div>
 
-      <div className='touchDiv'>
+      <div className='touchDiv' style={{textAlign:"center"}} >
         <div className='touchH'>Get In Touch</div>
         <div className='query'>Contact for any query</div>
         <div className='imgDiv'>
