@@ -16,9 +16,9 @@ const Footer = () => {
                     <div style={{ color: "white" }}> Cell: +91 7020044091</div>
 
                     <div className='media'>
-                        <a href='https://www.facebook.com/suvidhamahilamandal/'> <FaFacebook style={{ color: "white", margin: '5px', border:"1px solid var(--yellow)", padding:"3px"}} /></a>
-                        <a href='https://www.instagram.com/suvidha_mahila_mandal/?igshid=YmMyMTA2M2Y%3D'><FaInstagram style={{ color: "white", margin: "5px" , border:"1px solid var(--yellow)", padding:"3px" }} /></a>
-                        <a href='https://www.linkedin.com/company/suvidha-foundation/'><FaLinkedin style={{ color: "white", margin: '5px' , border:"1px solid var(--yellow)", padding:"3px"}} /></a>
+                        <a href='https://www.facebook.com/suvidhamahilamandal/'> <FaFacebook style={{ color: "white", margin: '5px', border:"2px solid var(--yellow)", padding:"3px",width:"40px",height:'40px'}} /></a>
+                        <a href='https://www.instagram.com/suvidha_mahila_mandal/?igshid=YmMyMTA2M2Y%3D'><FaInstagram style={{ color: "white", margin: "5px" , border:"2px solid var(--yellow)", padding:"3px" ,width:"40px",height:'40px' }} /></a>
+                        <a href='https://www.linkedin.com/company/suvidha-foundation/'><FaLinkedin style={{ color: "white", margin: '5px' , border:"2px solid var(--yellow)", padding:"3px",width:"40px",height:'40px'}} /></a>
                     </div>
 
 

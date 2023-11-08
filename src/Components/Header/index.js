@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './index.css'
-import logo from '../../assests/Suvidha Logo.png'
+import logo from '../../assests/logos/Suvidha Logo.png'
 import Hamburger from './hamberger'
 
 
