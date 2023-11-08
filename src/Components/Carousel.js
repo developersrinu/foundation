@@ -10,13 +10,13 @@ function MyCarousel() {
     <div>
         <Carousel>
       <Carousel.Item interval={1000}>
-        <img src={img1} alt="First slide" style={{ height: '86vh', width: "100%"}} />
+        <img src={img1} alt="First slide" style={{ height: '86vh', width: "100%",opacity:""}} />
       </Carousel.Item>
       <Carousel.Item interval={500}>
-        <img src={img2} alt="Second slide" style={{ height: '86vh', width: "100%"}} />
+        <img src={img2} alt="Second slide" style={{ height: '86vh', width: "100%" ,opacity:""}} />
       </Carousel.Item>
       <Carousel.Item>
-        <img src={img3} alt="Third slide" style={{ height: '86vh', width: "100%"}} />
+        <img src={img3} alt="Third slide" style={{ height: '86vh', width: "100%" ,opacity:""}} />
       </Carousel.Item>
     </Carousel>
 

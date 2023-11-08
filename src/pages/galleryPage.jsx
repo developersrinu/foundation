@@ -38,41 +38,41 @@ const GalleryPage = () => {
 
             <div className='items'>
 
-                <div className='item' >
+                <div className='item'style={{textAlign:"center"}}>
                     <img src={p2} alt="img" />
                     <div className='displayName'>Animal Feeding</div>
                 </div>
-                <div className='item' >
+                <div className='item'style={{textAlign:"center"}} >
                     <img src={p3} alt="img" />
                     <div className='displayName'>Books Distribution</div>
                 </div>
-                <div className='item' >
+                <div className='item' style={{textAlign:"center"}}>
                     <img src={p4} alt="img" />
                     <div className='displayName'>Cloth Distribution</div>
                 </div>
-                <div className='item' >
+                <div className='item' style={{textAlign:"center"}}>
                     <img src={p5} alt="img" />
                     <div className='displayName'>Food Distribution</div>
                 </div>
-                <div className='item' >
+                <div className='item' style={{textAlign:"center"}}>
                     <img src={p6} alt="img" />
                     <div className='displayName'>Free Education</div>
                 </div>
-                <div className='item' >
+                <div className='item' style={{textAlign:"center"}}>
                     <img src={p7} alt="img" />
                     <div className='displayName'>Online Events</div>
                 </div>
-                <div className='item' >
+                <div className='item' style={{textAlign:"center"}}>
                     <img src={p8} alt="img" />
                     <div className='displayName'>Empowering Women</div>
                 </div>
 
-                <div className='item' >
+                <div className='item' style={{textAlign:"center"}}>
                     <img src={p9} alt="img" />
                     <div className='displayName'>Tree Plantation</div>
                 </div>
 
-                <div className='item' >
+                <div className='item' style={{textAlign:"center"}}>
                     <img src={p10} alt="img" />
                     <div className='displayName'>Free workShop</div>
                 </div>
